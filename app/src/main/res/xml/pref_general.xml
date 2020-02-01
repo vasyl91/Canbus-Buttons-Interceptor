@@ -1,0 +1,139 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="category_scantool"
+        android:title="@string/category_scantool_title" >
+        <CheckBoxPreference
+            android:defaultValue="@string/autoconnect"
+            android:key="autoconnect"
+            android:title="@string/autoconnect_title" />
+        <CheckBoxPreference
+            android:defaultValue="@string/minimize"
+            android:key="minimize"
+            android:title="@string/minimize_title" />
+        <EditTextPreference
+            android:defaultValue="@string/scantool_device_number"
+            android:key="scantool_device_number"
+            android:title="@string/scantool_device_number_title" />
+        <Preference
+            android:defaultValue="@string/scantool_baud"
+            android:key="scantool_baud"
+            android:title="@string/scantool_baud_title" />
+        <ListPreference
+            android:defaultValue="@string/scantool_protocol"
+            android:entries="@array/scantool_protocol_entries"
+            android:entryValues="@array/scantool_protocol_values"
+            android:key="scantool_protocol"
+            android:title="@string/scantool_protocol_title" />
+        <EditTextPreference
+            android:defaultValue="@string/scantool_monitor_command"
+            android:key="scantool_monitor_command"
+            android:title="@string/scantool_monitor_command_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_monitors"
+        android:title="@string/category_monitors_title" >
+
+        <EditTextPreference
+            android:key="elm_monitor1"
+            android:defaultValue="@string/elm_monitor1"
+            android:title="@string/pref_title_elm_monitor1"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor2"
+            android:defaultValue="@string/elm_monitor2"
+            android:title="@string/pref_title_elm_monitor2"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor3"
+            android:defaultValue="@string/elm_monitor3"
+            android:title="@string/pref_title_elm_monitor3"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor4"
+            android:defaultValue="@string/elm_monitor4"
+            android:title="@string/pref_title_elm_monitor4"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor5"
+            android:defaultValue="@string/elm_monitor5"
+            android:title="@string/pref_title_elm_monitor5"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor6"
+            android:defaultValue="@string/elm_monitor6"
+            android:title="@string/pref_title_elm_monitor6"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor7"
+            android:defaultValue="@string/elm_monitor7"
+            android:title="@string/pref_title_elm_monitor7"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor8"
+            android:defaultValue="@string/elm_monitor8"
+            android:title="@string/pref_title_elm_monitor8"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor9"
+            android:defaultValue="@string/elm_monitor9"
+            android:title="@string/pref_title_elm_monitor9"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+
+        <EditTextPreference
+            android:key="elm_monitor10"
+            android:defaultValue="@string/elm_monitor10"
+            android:title="@string/pref_title_elm_monitor10"
+            android:dialogMessage="@string/pref_message_elm_monitors"
+            android:selectAllOnFocus="false"
+            android:inputType="textNoSuggestions"
+            android:capitalize="none"
+            android:singleLine="false" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>
